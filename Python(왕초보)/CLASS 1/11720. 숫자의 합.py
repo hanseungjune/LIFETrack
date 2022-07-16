@@ -1,8 +1,5 @@
 T = int(input())
 
-num = str(input())
-list = 0
-
-for i in num:
-    list += int(i)
-print(list)
+num_list = list(input())
+num_list = [int(i) for i in num_list]
+print(sum(num_list))

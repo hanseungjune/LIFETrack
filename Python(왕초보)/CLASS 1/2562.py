@@ -9,4 +9,4 @@ list_set = set(list)
 max = max(list_set)
 
 print(max)
-print(list.index(max)+1)
+print((list.index(max))+1)

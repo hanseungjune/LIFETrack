@@ -1,5 +1,4 @@
 T = int(input())
-colwidth = 80
 
 for _ in range(T):
     result = list(map(str, input()))

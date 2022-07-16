@@ -1,6 +1,4 @@
-h, m = input().split()
-h = int(h)
-m = int(m)
+h, m = map(int, input().split())
 
 if h > 0 and h <= 23:
     if m >= 45 and m <= 59:
